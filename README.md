@@ -2,6 +2,7 @@
 
 📸 Take beautiful screenshots of your code in VS Code!
 
+
 ## Features
 
 - Quickly save screenshots of your code
@@ -24,17 +25,7 @@
 
 ## Examples
 
-[Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) + [Operator Mono](https://www.typography.com/fonts/operator/styles/operatormono)
-
-![Example 1](https://raw.githubusercontent.com/kufii/CodeSnap/master/examples/material_operator-mono.png)
-
-[Nord](https://github.com/arcticicestudio/nord-visual-studio-code) + [Cascadia Code](https://github.com/microsoft/cascadia-code)
-
-![Example 2](https://raw.githubusercontent.com/kufii/CodeSnap/master/examples/nord_cascadia-code.png)
-
-Monokai + [Fira Code](https://github.com/tonsky/FiraCode)
-
-![Example 3](https://raw.githubusercontent.com/kufii/CodeSnap/master/examples/monokai_fira-code.png)
+![code](https://user-images.githubusercontent.com/77970269/162962469-668d5aa4-a64a-4823-971e-40cd7ab7a0bc.png)
 
 ## Configuration
 
@@ -62,24 +53,11 @@ CodeSnap is highly configurable. Here's a list of settings you can change to tun
 
 **`codesnap.shutterAction`:** Either `save` to save the screenshot into a file, or `copy` to copy the screenshot into the clipboard.
 
-## Copy to Clipboard support in Linux
 
-In order for this feature to work in Linux you must install `xclip`.
-
-Usually you can simply install it using your distribution's package manager:
-
-```sh
-# ubuntu / debian
-sudo apt install xclip
-
-# arch / manjaro
-pacman -S xclip
-```
-
-If you're using [Wayland](https://wayland.freedesktop.org/) (rather than X) as your compositing window manager install [`wl-clipboard`](https://github.com/bugaevc/wl-clipboard) instead.
 
 ## Acknowledgements
 
 The great [Polacode](https://github.com/octref/polacode), for the initial concept.
 
 [Carbon](https://carbon.now.sh/) for some design inspiration.
+[NLTD2010](https://github.com/NLTD2010)
